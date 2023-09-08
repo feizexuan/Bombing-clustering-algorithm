@@ -1,7 +1,7 @@
 bo=Bombing(data)
 idx=bo.find_cluster(K)
 //
-idx is label of clustering
-K is number of cluster
-you can set K<=0 to begin non-k algorithm
+idx is the label of each data point
+K is the number of cluster
+or K<=0 means the parameter K is not required
 //
